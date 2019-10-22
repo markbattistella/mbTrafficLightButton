@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -44,6 +44,7 @@
 				A395B7B2235ED9FA008377FD /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		A395B7B2235ED9FA008377FD /* Products */ = {
 			isa = PBXGroup;
@@ -103,7 +104,7 @@
 				};
 			};
 			buildConfigurationList = A395B7AC235ED9FA008377FD /* Build configuration list for PBXProject "mbTrafficLightButton" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
