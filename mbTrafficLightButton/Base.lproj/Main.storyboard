@@ -15,54 +15,71 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nng-xc-jOh">
-                                <rect key="frame" x="157" y="398" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <state key="normal" title="SLOW">
-                                    <color key="titleColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0g-QP-pt9">
-                                <rect key="frame" x="157" y="581" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <state key="normal" title="GO">
-                                    <color key="titleColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQM-BB-Zx8">
-                                <rect key="frame" x="0.0" y="760" width="414" height="59"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7Tw-Tt-Mvz">
+                                <rect key="frame" x="132" y="213" width="150" height="149"/>
+                                <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="DYv-Qu-L2Z"/>
+                                    <constraint firstAttribute="width" constant="150" id="Tch-OE-dlV"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="loy-fv-C1l">
+                                <rect key="frame" x="132" y="374" width="150" height="149"/>
+                                <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="kEu-XI-7uy"/>
+                                    <constraint firstAttribute="height" constant="150" id="qzf-0I-VuO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Mr5-ic-BWf">
+                                <rect key="frame" x="132" y="533" width="150" height="149"/>
+                                <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="tot-Tx-SRt"/>
+                                    <constraint firstAttribute="height" constant="150" id="vAU-Jo-5aa"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQM-BB-Zx8">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jhy-6w-bBS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <state key="normal" title="Button">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="lightChangerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Flu-19-RHN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8d-3q-qCO">
-                                <rect key="frame" x="157" y="216" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <state key="normal" title="STOP">
-                                    <color key="titleColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="oQM-BB-Zx8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2ju-HD-piG"/>
+                            <constraint firstItem="7Tw-Tt-Mvz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5k8-tC-zv0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oQM-BB-Zx8" secondAttribute="trailing" id="AqY-HH-cg2"/>
+                            <constraint firstItem="loy-fv-C1l" firstAttribute="top" secondItem="7Tw-Tt-Mvz" secondAttribute="bottom" constant="10" id="QXH-3s-zSK"/>
+                            <constraint firstItem="oQM-BB-Zx8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UFA-GI-sH2"/>
+                            <constraint firstItem="oQM-BB-Zx8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="juE-ew-cw5"/>
+                            <constraint firstItem="loy-fv-C1l" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lKZ-iq-k4o"/>
+                            <constraint firstItem="loy-fv-C1l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mXD-4L-dAQ"/>
+                            <constraint firstItem="Mr5-ic-BWf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rX9-gc-9bd"/>
+                            <constraint firstItem="oQM-BB-Zx8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w5X-Q8-hjV"/>
+                            <constraint firstItem="Mr5-ic-BWf" firstAttribute="top" secondItem="loy-fv-C1l" secondAttribute="bottom" constant="10" id="xu6-fa-vTb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="buttonText" destination="oQM-BB-Zx8" id="yFs-OE-02c"/>
-                        <outlet property="greenLight" destination="c0g-QP-pt9" id="C9P-bX-Pg8"/>
-                        <outlet property="redLight" destination="L8d-3q-qCO" id="MYh-N4-ndA"/>
-                        <outlet property="yellowLight" destination="nng-xc-jOh" id="o39-PR-G9K"/>
+                        <outlet property="greenLight" destination="Mr5-ic-BWf" id="Asa-ci-skm"/>
+                        <outlet property="redLight" destination="7Tw-Tt-Mvz" id="ndW-gD-UCe"/>
+                        <outlet property="yellowLight" destination="loy-fv-C1l" id="6t1-4L-idO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -70,4 +87,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="103.79464285714285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="circle.fill" catalog="system" width="64" height="60"/>
+    </resources>
 </document>
